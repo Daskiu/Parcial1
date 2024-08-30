@@ -1,0 +1,21 @@
+.hoteles-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+}
+
+.card-container {
+    background-color: rgb(153, 153, 153);
+    border-radius: 15px;
+}
+
+.hoteles-container li {
+    text-align: center;
+    color: #000;
+    font-weight: 900;
+    font-size: 12px;
+    font-family: sans-serif;
+    list-style: none;
+}
